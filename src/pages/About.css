@@ -1,0 +1,362 @@
+
+.about-section {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 0;
+  background: #0b0d14;
+  color: #f8fafc;
+}
+
+.about-header {
+  max-width: 650px;
+  margin: 0 auto 65px;
+  text-align: center;
+}
+
+.about-label {
+  display: inline-block;
+  margin-bottom: 17px;
+  color: #818cf8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.about-header h2 {
+  margin-bottom: 16px;
+  color: #f8fafc;
+  font-size: clamp(35px, 5vw, 50px);
+  font-weight: 800;
+  letter-spacing: -1.5px;
+}
+
+.about-header h2 span {
+  color: #818cf8;
+}
+
+.about-header > p {
+  max-width: 520px;
+  margin: auto;
+  color: #9ca3af;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.about-photo-wrap {
+  position: relative;
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 0 18px 35px 0;
+}
+
+.about-photo-frame {
+  position: relative;
+  z-index: 1;
+  padding: 12px;
+  border: 1px solid rgba(129, 140, 248, 0.45);
+  border-radius: 24px;
+  background: linear-gradient(
+    145deg,
+    rgba(129, 140, 248, 0.14),
+    rgba(34, 211, 238, 0.04)
+  );
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.25);
+}
+
+.about-photo-placeholder {
+  display: flex;
+  min-height: 410px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 17px;
+  background:
+    radial-gradient(
+      circle at 50% 35%,
+      rgba(129, 140, 248, 0.3),
+      transparent 38%
+    ),
+    linear-gradient(145deg, #1c2540, #10131e 70%);
+}
+
+.about-photo-placeholder span {
+  color: transparent;
+  background: linear-gradient(135deg, #c7d2fe, #818cf8, #67e8f9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 180px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.about-photo-caption {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  min-width: 230px;
+  padding: 16px 20px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 14px;
+  background: #151925;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.28);
+}
+
+.about-caption-line {
+  width: 4px;
+  height: 42px;
+  border-radius: 5px;
+  background: linear-gradient(#818cf8, #22d3ee);
+}
+
+.about-photo-caption strong {
+  display: block;
+  color: #f8fafc;
+  font-size: 15px;
+}
+
+.about-photo-caption p {
+  margin: 4px 0 0;
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+.about-decor {
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgba(129, 140, 248, 0.5);
+  border-radius: 16px;
+}
+
+.about-decor-one {
+  top: -18px;
+  right: 0;
+}
+
+.about-decor-two {
+  bottom: 20px;
+  left: -15px;
+  width: 35px;
+  height: 35px;
+  border-color: rgba(34, 211, 238, 0.5);
+  border-radius: 50%;
+}
+
+.about-details {
+  padding-left: 20px;
+}
+
+.about-greeting {
+  color: #818cf8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.about-greeting span {
+  margin-left: 5px;
+  letter-spacing: 0;
+}
+
+.about-details h3 {
+  margin: 19px 0 22px;
+  color: #f8fafc;
+  font-size: clamp(29px, 3.4vw, 40px);
+  font-weight: 800;
+  line-height: 1.35;
+  letter-spacing: -1.2px;
+}
+
+.about-details h3 span {
+  color: #818cf8;
+}
+
+.about-details > p {
+  margin-bottom: 16px;
+  color: #a1a7b5;
+  font-size: 14px;
+  line-height: 1.95;
+}
+
+.about-skills-heading {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 28px 0 16px;
+}
+
+.about-skills-heading h4 {
+  margin: 0;
+  color: #e2e8f0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.about-skills-heading > span {
+  height: 1px;
+  flex: 1;
+  background: rgba(148, 163, 184, 0.18);
+}
+
+.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.about-skill {
+  padding: 9px 13px;
+  border: 1px solid #282d3d;
+  border-radius: 8px;
+  background: #141824;
+  color: #cbd5e1;
+  font-size: 12px;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.about-skill:hover {
+  border-color: #818cf8;
+  background: rgba(99, 102, 241, 0.1);
+  color: #c7d2fe;
+  transform: translateY(-2px);
+}
+
+.about-highlights {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 32px;
+  padding: 22px 0;
+  border-top: 1px solid #242938;
+  border-bottom: 1px solid #242938;
+}
+
+.about-highlight {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.about-highlight-number {
+  color: #c7d2fe;
+  font-size: 23px;
+  font-weight: 850;
+}
+
+.about-highlight-text {
+  color: #929bad;
+  font-size: 11px;
+}
+
+.about-highlight-divider {
+  width: 1px;
+  height: 42px;
+  flex-shrink: 0;
+  background: #303548;
+}
+
+.about-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 27px;
+  padding: 14px 19px;
+  border: 1px solid #7477ed;
+  border-radius: 9px;
+  background: #6366f1;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.about-button:hover {
+  transform: translateY(-3px);
+  background: #4f46e5;
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.22);
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .about-section {
+    padding: 80px 0;
+  }
+
+  .about-header {
+    margin-bottom: 45px;
+  }
+
+  .about-photo-wrap {
+    max-width: 350px;
+  }
+
+  .about-photo-placeholder {
+    min-height: 360px;
+  }
+
+  .about-details {
+    padding: 20px 0 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-section {
+    padding: 65px 0;
+  }
+
+  .about-header h2 {
+    letter-spacing: -1px;
+  }
+
+  .about-header > p {
+    font-size: 13px;
+  }
+
+  .about-photo-wrap {
+    max-width: 310px;
+  }
+
+  .about-photo-placeholder {
+    min-height: 320px;
+  }
+
+  .about-photo-placeholder span {
+    font-size: 145px;
+  }
+
+  .about-details h3 {
+    font-size: 30px;
+  }
+
+  .about-details > p {
+    font-size: 13px;
+  }
+
+  .about-highlights {
+    gap: 9px;
+  }
+
+  .about-highlight-number {
+    font-size: 19px;
+  }
+
+  .about-highlight-text {
+    font-size: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-skill,
+  .about-button {
+    transition: none;
+  }
+}

@@ -1,0 +1,103 @@
+.education {
+  background: #071827;
+}
+
+.education-card {
+  height: 100%;
+
+  display: flex;
+  gap: 20px;
+
+  padding: 30px;
+
+  background: #10263a;
+
+  border: 1px solid #23445f;
+
+  border-radius: 12px;
+
+  color: white;
+
+  transition: 0.3s;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  border-color: #087cff;
+}
+
+.education-icon {
+  width: 55px;
+  height: 55px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #087cff;
+
+  border-radius: 50%;
+
+  font-size: 25px;
+}
+
+.education-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.education-card p {
+  color: #aebdca;
+  margin-bottom: 5px;
+}
+
+.education-card span {
+  color: #1685ff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.certificate-card {
+  height: 100%;
+
+  padding: 25px;
+
+  text-align: center;
+
+  background: #10263a;
+
+  border: 1px solid #23445f;
+
+  border-radius: 10px;
+
+  color: white;
+
+  transition: 0.3s;
+}
+
+.certificate-card:hover {
+  transform: translateY(-6px);
+  border-color: #087cff;
+}
+
+.certificate-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.certificate-card h5 {
+  color: white;
+}
+
+.certificate-card p {
+  color: #9daebb;
+  font-size: 14px;
+}
+
+@media (max-width: 576px) {
+  .education-card {
+    flex-direction: column;
+  }
+}
